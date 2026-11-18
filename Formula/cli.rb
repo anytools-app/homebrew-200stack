@@ -1,25 +1,25 @@
 class Cli < Formula
   desc "200stack の CLI"
   homepage "https://www.200stack.com/ai/"
-  version "0.5.0"
+  version "0.6.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/anytools-app/homebrew-200stack/releases/download/stack200-cli-v0.5.0/stack200-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "c83440cd90f08afa7f1b0820095f40c6a48ff5a45c871041b03e64c0393a8f1c"
+      url "https://github.com/anytools-app/homebrew-200stack/releases/download/stack200-cli-v0.6.0/stack200-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "c9db9314b823f098468a6c5b465bb25493ba5c3dcfbbc7ab097a6a065b9ea084"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/anytools-app/homebrew-200stack/releases/download/stack200-cli-v0.5.0/stack200-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "99746ee1c81876cdd65ce6c01b11d7b1c71097709ff0fd1757c279c03fa7be8a"
+      url "https://github.com/anytools-app/homebrew-200stack/releases/download/stack200-cli-v0.6.0/stack200-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "a5de3f98406d2320962baba53db9fd73b41f552a82b122dc4d1bd3d708724a49"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/anytools-app/homebrew-200stack/releases/download/stack200-cli-v0.5.0/stack200-cli-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "148d569b7a38b4106628e5e69d8fd0b3fbcf179668233ff5525f1f67550a931e"
+      url "https://github.com/anytools-app/homebrew-200stack/releases/download/stack200-cli-v0.6.0/stack200-cli-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "54859098683d7fa59c98c82fb9a10c6427fcab2f9cef3fe38627956e7ec2a519"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/anytools-app/homebrew-200stack/releases/download/stack200-cli-v0.5.0/stack200-cli-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "12ac1a79627595f005bdf4a7a1ddbb06e22efdfbd6e4efd626380680cd156fbe"
+      url "https://github.com/anytools-app/homebrew-200stack/releases/download/stack200-cli-v0.6.0/stack200-cli-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "321afeb4f90d5b6aa54b4f5f6b83562d776074ba1646dfa7b6a584f1e563b8d5"
     end
   end
 
